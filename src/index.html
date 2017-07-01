@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <title>HTML Portfolio</title>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#portfolio-collapse-menu">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">MICHAEL WALTON</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="portfolio-collapse-menu">
+      <ul class="nav navbar-nav">
+        <li><a href='#home'>Home</a></li>
+        <li><a href='#'>About</a></li>
+        <li><a href="#accomp">Accomplishments</a></li>
+        <li><a href="#Bot">Contact Me</a></li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+<div id="portfolio-carousel" class="carousel slide" data-ride="carousel">
+  <a name='home'></a>
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#portfolio-carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="1"></li>
+    <li data-target="#portfolio-carousel" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>What do I do?</h1>
+          <p>I am currently a web developer, specialising in Front-End development and hoping to move into the Aritficial Intelligence inudstry in the future. If you need a website created for your business or possibly feel the one you have now doesn't stand out to your current competition, get in contact and we can work together to give your business a fresh and modern look.</p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Skills I have mastered</h1>
+          <p>
+            <ul id='points'>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Javascript</li>
+              <li>jQuery</li>
+              <li>Photoshop</li>
+              <li>Face to Face Sales</li>
+              <li>Telesales</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="item">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Story so far...</h1>
+          <p>After school and college I went off to Brighton university to study criminology. However, I realised the course was not in line with what I wanted to do. I then worked in Sales & Finance for 2 years but recently decided to leave the industry to persue a career in web development, as it is an area I'm very passionaite about.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a class="left carousel-control" href="#portfolio-carousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#portfolio-carousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class='marketing'>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-4'>
+        <span class='glyphicon glyphicon-star'></span>
+        <h2>£1,000,000</h2>
+        <p>Sold over one million pounds worth of investment during my time at Elite Investor Club</p>
+      </div>
+      <a name='accomp'></a>
+      <div class='col-md-4'>
+        <span class='glyphicon glyphicon-star'></span>
+        <h2>Portfolio of websites</h2>
+        <p>The 1st website I created compares the finances of Premier League football clubs using HTML, CSS & jQuery. You can view it by <a href='www.football-finance.com'>clicking here</a>.<br>I also created a simple HTML & CSS web page describing a little more about myself, <a href='http://football-finance.com/HTMLPortfolioProject/'>click here</a> to see</p>
+      </div>
+      <div class='col-md-4'>
+        <span class='glyphicon glyphicon-star'></span>
+        <h2>Hobbies</h2>
+        <p>I enjoy playing the Ukelele, travelling and I am also a big football fan</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class='container'>
+    <h3>Get in Touch...</h3>
+    <p>You can contact me via email at <strong>07waltonmic@outlook.co.uk</strong> or visit my LinkedIn page if you prefer by <a href='https://www.linkedin.com/in/michael-walton-0199b2100/'>clicking here</a></p>
+  </div>
+</footer>
+<a name='Bot'></a>
+
+
+  <!--
+    Previous project placeholder ends
+    (unused pieces will be deleted at the last task)
+  -->
+
+
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
